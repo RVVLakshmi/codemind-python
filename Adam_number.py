@@ -1,11 +1,12 @@
-n=input()
-s=n[::-1]
-n=int(n)
-s=int(s)
-g=n*n
-h=s*s
-l=str(h)
-if str(g)==l[::-1]:
+n=int(input())
+s=n*n
+n=str(n)
+m=n[::-1]
+m=int(m)
+k=m*m
+s=str(s)
+k=str(k)
+if s==k[::-1]:
     print('True')
 else:
     print('False')
